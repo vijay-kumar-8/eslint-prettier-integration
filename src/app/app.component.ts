@@ -12,7 +12,7 @@ export class AppComponent {
  b = 10
 
  ngOnInit(){
-  console.log(this.a);
+  console.log(this.b);
  }
 
 }
