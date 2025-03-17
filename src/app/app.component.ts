@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core'
 export class AppComponent {
   title = 'ang-eslint';
   name:any;
- a = 5;
+ a = 5
  b = 10
 
  ngOnInit(){
