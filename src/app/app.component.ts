@@ -10,8 +10,17 @@ export class AppComponent {
   name:any;
  a = 5
  b = 10
+ arr = [
+  1,
+  2,
+  3
+];
+
+
+
 
  ngOnInit(){
+  const greeting = "Hello, world!";
  }
 
 }
