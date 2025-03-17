@@ -8,4 +8,11 @@ import { Component } from '@angular/core'
 export class AppComponent {
   title = 'ang-eslint';
   name:any;
+ a = 5
+ b = 10
+
+ ngOnInit(){
+  console.log(this.a);
+ }
+
 }
