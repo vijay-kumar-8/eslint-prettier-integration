@@ -12,6 +12,7 @@ export class AppComponent {
  b = 10
  arr = [
   1,
+  2,
   3
 ];
 
