@@ -20,7 +20,7 @@ export class AppComponent {
 
 
  ngOnInit(){
-  const greeting = "Hello, world!";
+  const greeting = "Hello, world!"
  }
 
 }
