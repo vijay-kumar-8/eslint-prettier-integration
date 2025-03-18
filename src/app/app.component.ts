@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-root',
@@ -7,19 +7,20 @@ import { Component, OnInit } from '@angular/core'
 })
 export class AppComponent {
   title = 'ang-eslint';
-  name:any;
- a = 5
- b = 10
- arr = [
-  1,
-  3
-];
+//   name:any;
+//  a = 5
+//  b = 10
+//  arr = [
+//   1,
+//   2,
+//   3
+// ];
 
 
 
 
- ngOnInit(){
-  const greeting = "Hello, world!"
- }
+//  ngOnInit(){
+//   // const greeting = "Hello, world!"
+//  }
 
 }
