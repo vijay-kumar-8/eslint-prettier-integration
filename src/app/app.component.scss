@@ -22,13 +22,3 @@ button {
 h3 {
   margin-top: 20px;
 }
-
-.container {
-  background-colr: #fff; /* Unknown property 'background-colr' */
-}
-
-.parent {
-  .child {
-    color: red; /* Nesting not allowed */
-  }
-}
