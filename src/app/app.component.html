@@ -1,3 +1,46 @@
-<h1>{{title}}</h1>
+<!-- <div>
+    <input type="text" [(ngModel)]="inputText1"  />
+    <button (click)="onGenerateText()">Generate</button>
+  
+    <div *ngIf="generatedText">
+      <p>Generated Text:</p>
+      <p>{{ generatedText }}</p>
+    </div>
+  </div> -->
+
+<!-- <div class="container">
+    <h1>Translation using Hugging Face</h1>
+  
+    <form (ngSubmit)="onSubmit()">
+      <label for="inputText">Enter text (English):</label>
+      <textarea id="inputText" [(ngModel)]="inputText" name="inputText" required></textarea>
+      <button type="submit">Translate</button>
+    </form>
+  
+    <div *ngIf="translatedText">
+      <h3>Translated Text (Italian):</h3>
+      <p>{{ translatedText }}</p>
+    </div>
+  </div> -->
+
+<div class="container">
+  <h1>Text for Use Cases</h1>
+
+  <div>
+    <label for="inputText">Enter your text:</label>
+    <textarea
+      id="inputText"
+      [(ngModel)]="inputText"
+      name="inputText"
+      required
+    ></textarea>
+  </div>
+  <button type="submit" (click)="onSubmit()">submit</button>
+
+  <div *ngIf="summarizedText">
+    <h3>Generated Text :</h3>
+    <p>{{ summarizedText }}</p>
+  </div>
+</div>
 
 <router-outlet></router-outlet>
