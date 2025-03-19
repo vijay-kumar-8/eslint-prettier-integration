@@ -16,7 +16,6 @@ export class AppComponent {
   //   const greeting = 'Hello, world!';
   // }
 
-  inputText = ''
   inputText1 = ''
   generatedText = ''
   translatedText = ''
