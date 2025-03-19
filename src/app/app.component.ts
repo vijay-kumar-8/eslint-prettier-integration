@@ -8,12 +8,12 @@ import { pipeline } from '@xenova/transformers'
 })
 export class AppComponent {
   title = 'ang-eslint'
-  // name:any;
+  name: any
   a = 5
   b = 10
 
   ngOnInit() {
-    // const greeting = "Hello, world!"
+    const greeting = 'Hello, world!'
   }
 
   inputText: string = ''
